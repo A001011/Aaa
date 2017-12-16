@@ -31,3 +31,4 @@ public class HaybookApplicationImpl implements ApplicationContextAware {
 		this.applicationContext = applicationContext;
 	}
 }
+
