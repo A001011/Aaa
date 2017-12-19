@@ -26,4 +26,11 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+		compile('org.springframework.boot:spring-boot-starter-data-jpa')
+		testCompile('org.springframework.boot:spring-boot-starter-test')
+		compile group: 'org.hsqldb', name: 'hsqldb', version: '2.4.0'
+
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+	compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.12.Final'
 }
