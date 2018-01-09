@@ -40,5 +40,8 @@ public class HaybookApplicationImpl implements ApplicationContextAware {
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
     }
+    public int sum(int a,int b){
+        return a + b;
+    }
 }
 
